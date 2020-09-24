@@ -2,7 +2,7 @@
 The executables and demo data can be downloaded from **[releases](https://github.com/SMART-pipeline/Lychnis-tracing/releases/download/1.2.5/Lychnis-1.2.5.zip)**.
 Full version including the source codes will be released later.
 
-# Lychnis-tracing
+# Lychnis-tracer
 
 ## System requirements
 * Software dependencies: ImarisFileConverter (freely downloadable in https://imaris.oxinst.com/big-data), for converting a variety of image formats to .ims format, which is supported by Lychnis.
