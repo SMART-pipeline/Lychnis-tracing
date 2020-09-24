@@ -11,8 +11,7 @@ Full version including the source codes will be released later.
 * Any required non-standard hardware: None
 
 ## Installation guide
-Instructions: Unzip “Lychnis.zip” and run “Software/lychnis-1.2.5.exe” directly
-Typical install time on a "normal" desktop computer: 10 seconds
+Instructions: Unzip “Lychnis.zip” and run “Software/lychnis-1.2.5.exe” directly.
 
 ## Demo
 Instructions to run on data:
@@ -40,8 +39,7 @@ How to run the software on your data
 * Any required non-standard hardware: None
 
 ## Installation guide
-Instructions: Unzip “Lychnis.zip” and run “Software/Lychnis-stitcher-1.1.0.exe” directly
-Typical install time on a "normal" desktop computer: 10 seconds
+Instructions: Unzip “Lychnis.zip” and run “Software/Lychnis-stitcher-1.1.0.exe” directly.
 
 ## Demo
 Instructions to run on data:
