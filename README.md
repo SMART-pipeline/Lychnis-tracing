@@ -1,5 +1,6 @@
 
 The executables and demo data can be downloaded from **[releases](https://github.com/SMART-pipeline/Lychnis-tracing/releases/download/1.2.5/Lychnis-1.2.5.zip)**.
+Full version including the source codes will be released later.
 
 # Lychnis-tracing
 
