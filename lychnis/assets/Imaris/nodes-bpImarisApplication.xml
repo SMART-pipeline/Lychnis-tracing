@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bpImarisApplication Version = "Imaris x64 9.3.1">
+<bpCommandChannelSelection actorname = "bpImarisApplication" actorid = "1" value = "on "/>
+<bpCommandSetTimePoint actorname = "bpImarisApplication" actorid = "1" timeinfo = "2019-07-10 17:49:27.000000000" value = "0"/>
+<bpViewerSlice>
+<bpSliceMeasurement>
+<drawingMode>0</drawingMode>
+<viewingMode>0</viewingMode>
+<grid>false</grid>
+<measurementPoints>
+</measurementPoints>
+</bpSliceMeasurement>
+</bpViewerSlice>
+<bpViewerEasy3D>
+<bpCommandViewer2DProjectionSetMode actorname = "bpViewerEasy3D" actorid = "6" value = "0"/>
+<bpCommandViewer2DProjectionSetLight actorname = "bpViewerEasy3D" actorid = "6" value = "1"/>
+<bpCommandViewer2DProjectionSetLightPosition actorname = "bpViewerEasy3D" actorid = "6" value = "0"/>
+<bpCommandViewer2DProjectionSettings actorname = "bpViewerEasy3D" actorid = "6" Diffusion = "1.000" Emission = "0.100" OpacityCombinationMode = "1" OpacityCombinationCoefficient = "10.000"/>
+<bpCommandViewer2DProjectionSetCameraPosition actorname = "bpViewerEasy3D" actorid = "6" value = "0"/>
+</bpViewerEasy3D>
+<bpSurfaceApplication>
+<bpComponentGroup>
+<bpSurfaceComponent>
+  <name>Scene</name>
+  <id>18</id>
+  <isHidden>false</isHidden>
+  <isNode>true</isNode>
+  <isExpanded>true</isExpanded>
+  <material>
+    <ambientColor>((0.200,0.200,0.200))</ambientColor>
+    <diffuseColor>((0.800,0.800,0.800))</diffuseColor>
+    <specularColor>((0.000,0.000,0.000))</specularColor>
+    <emissiveColor>((0.000,0.000,0.000))</emissiveColor>
+    <shininess>(0.200)</shininess>
+    <transparency>(0.000)</transparency>
+  </material>
+<bpLightSource>
+<bpSurfaceComponent>
+  <name>Light Source 1</name>
+  <id>19</id>
+  <isHidden>false</isHidden>
+  <isNode>false</isNode>
+  <isExpanded>false</isExpanded>
+  <material>
+    <ambientColor>((0.200,0.200,0.200))</ambientColor>
+    <diffuseColor>((0.800,0.800,0.800))</diffuseColor>
+    <specularColor>((0.000,0.000,0.000))</specularColor>
+    <emissiveColor>((0.000,0.000,0.000))</emissiveColor>
+    <shininess>(0.200)</shininess>
+    <transparency>(0.000)</transparency>
+  </material>
+</bpSurfaceComponent>
+  <intensity>1.000</intensity>
+  <color red="1.000" green="0.900" blue="0.900"/>
+  <direction>0.408 -0.408 -0.816</direction>
+  <mFixToDataSet>false</mFixToDataSet>
+</bpLightSource>
+<bpFrame>
+<bpSurfaceComponent>
+  <name>Frame 1</name>
+  <id>20</id>
+  <isHidden>false</isHidden>
+  <isNode>false</isNode>
+  <isExpanded>false</isExpanded>
+  <material>
+    <ambientColor>((0.200,0.200,0.200))</ambientColor>
+    <diffuseColor>((1.000,1.000,1.000))</diffuseColor>
+    <specularColor>((0.000,0.000,0.000))</specularColor>
+    <emissiveColor>((0.000,0.000,0.000))</emissiveColor>
+    <shininess>(0.200)</shininess>
+    <transparency>(0.000)</transparency>
+  </material>
+</bpSurfaceComponent>
+  <LabelMaterial>
+    <LabelAmbientColor>((0.200,0.200,0.200))</LabelAmbientColor>
+    <LabelDiffuseColor>((0.800,0.800,0.800))</LabelDiffuseColor>
+    <LabelSpecularColor>((0.000,0.000,0.000))</LabelSpecularColor>
+    <LabelEmissiveColor>((0.000,0.000,0.000))</LabelEmissiveColor>
+    <LabelShininess>(0.200)</LabelShininess>
+    <LabelTransparency>(0.000)</LabelTransparency>
+  </LabelMaterial>
+  <bpFrameSettings mVisibleBox="true" mGridSpacing="200" mGridSpacing1="200" mGridSpacing2="200" mVisibleGrid="true" mVisibleBoxShading="false" mVisibleTickMarks="true" mVisibleCoordinateAxes="false" mFixToCamera="true" mVisibleShadowing="false" mGridTransparency="8" mShadingTransparency="8" mLineWidth="1" mLabelFontName="Arial" mLabelFontSize="10" mLabelFontBold="false" mLabelFontItalic="false" mLabelFontUnderline="false"/>
+<editorSettings dataId="100001" controlInCenter="true"/>
+</bpFrame>
+<bpVolumeRenderer>
+<bpSurfaceComponent>
+  <name>Volume</name>
+  <id>21</id>
+  <isHidden>false</isHidden>
+  <isNode>false</isNode>
+  <isExpanded>false</isExpanded>
+  <material>
+    <ambientColor>((0.200,0.200,0.200))</ambientColor>
+    <diffuseColor>((0.800,0.800,0.800))</diffuseColor>
+    <specularColor>((0.000,0.000,0.000))</specularColor>
+    <emissiveColor>((0.000,0.000,0.000))</emissiveColor>
+    <shininess>(0.200)</shininess>
+    <transparency>(0.000)</transparency>
+  </material>
+</bpSurfaceComponent>
+  <bpVolumeRendererBlend>
+    <Channel index="0">
+      <mBlendOpacityMode>eStep</mBlendOpacityMode>
+      <bpOpacityInfo>
+        <mOpacity index="0" mIntensity="0.000" mOpacity="0.000"/>
+        <mOpacity index="1" mIntensity="804.211" mOpacity="0.000"/>
+        <mOpacity index="2" mIntensity="17224.000" mOpacity="0.300"/>
+        <mOpacity index="3" mIntensity="34448.000" mOpacity="0.300"/>
+      </bpOpacityInfo>
+    </Channel>
+  </bpVolumeRendererBlend>
+  <bpVolumeRendererNormalShading>
+    <Channel index="0">
+      <mBlendOpacityMode>eStep</mBlendOpacityMode>
+      <bpOpacityInfo>
+        <mOpacity index="0" mIntensity="0.000" mOpacity="0.000"/>
+        <mOpacity index="1" mIntensity="804.211" mOpacity="0.000"/>
+        <mOpacity index="2" mIntensity="1045.474" mOpacity="0.700"/>
+        <mOpacity index="3" mIntensity="34448.000" mOpacity="0.700"/>
+      </bpOpacityInfo>
+    </Channel>
+  </bpVolumeRendererNormalShading>
+  <renderingMode>MaxIntensityProjection</renderingMode>
+  <cutHighOrLow>1</cutHighOrLow>
+  <alphaValue>0.000</alphaValue>
+</bpVolumeRenderer>
+%1
+</bpSurfaceComponent>
+</bpComponentGroup>
+<SoPerspectiveCamera>
+</SoPerspectiveCamera>
+<SurpassSoPerspectiveCamera>
+  <SurpassSoPerspectiveCameraviewportMapping>3</SurpassSoPerspectiveCameraviewportMapping>
+  <SurpassSoPerspectiveCameraposition>(1125.000, 887.500, 3142.615)</SurpassSoPerspectiveCameraposition>
+  <SurpassSoPerspectiveCameraorientation>(0.000, 0.000, 1.000, 0.000)</SurpassSoPerspectiveCameraorientation>
+  <SurpassSoPerspectiveCameraaspectRatio>1.000</SurpassSoPerspectiveCameraaspectRatio>
+  <SurpassSoPerspectiveCamerafocalDistance>2642.615</SurpassSoPerspectiveCamerafocalDistance>
+  <SurpassSoPerspectiveCameraheightAngle>0.785</SurpassSoPerspectiveCameraheightAngle>
+</SurpassSoPerspectiveCamera>
+<SurpassSoOrthographicCamera>
+  <SurpassSoOrthographicCameraviewportMapping>3</SurpassSoOrthographicCameraviewportMapping>
+  <SurpassSoOrthographicCameraposition>(1125.000, 887.500, 3142.615)</SurpassSoOrthographicCameraposition>
+  <SurpassSoOrthographicCameraorientation>(0.000, 0.000, 1.000, 0.000)</SurpassSoOrthographicCameraorientation>
+  <SurpassSoOrthographicCameraaspectRatio>1.000</SurpassSoOrthographicCameraaspectRatio>
+  <SurpassSoOrthographicCamerafocalDistance>2642.615</SurpassSoOrthographicCamerafocalDistance>
+  <SurpassSoOrthographicCameraheight>2.000</SurpassSoOrthographicCameraheight>
+</SurpassSoOrthographicCamera>
+<VantageSoPerspectiveCamera>
+  <VantageSoPerspectiveCameraviewportMapping>3</VantageSoPerspectiveCameraviewportMapping>
+  <VantageSoPerspectiveCameraposition>(0.000, 0.000, 1.000)</VantageSoPerspectiveCameraposition>
+  <VantageSoPerspectiveCameraorientation>(0.000, 0.000, 1.000, 0.000)</VantageSoPerspectiveCameraorientation>
+  <VantageSoPerspectiveCameraaspectRatio>1.000</VantageSoPerspectiveCameraaspectRatio>
+  <VantageSoPerspectiveCamerafocalDistance>5.000</VantageSoPerspectiveCamerafocalDistance>
+  <VantageSoPerspectiveCameraheightAngle>0.785</VantageSoPerspectiveCameraheightAngle>
+</VantageSoPerspectiveCamera>
+<VantageSoOrthographicCamera>
+  <VantageSoOrthographicCameraviewportMapping>3</VantageSoOrthographicCameraviewportMapping>
+  <VantageSoOrthographicCameraposition>(0.000, 0.000, 1.000)</VantageSoOrthographicCameraposition>
+  <VantageSoOrthographicCameraorientation>(0.000, 0.000, 1.000, 0.000)</VantageSoOrthographicCameraorientation>
+  <VantageSoOrthographicCameraaspectRatio>1.000</VantageSoOrthographicCameraaspectRatio>
+  <VantageSoOrthographicCamerafocalDistance>5.000</VantageSoOrthographicCamerafocalDistance>
+  <VantageSoOrthographicCameraheight>2.000</VantageSoOrthographicCameraheight>
+</VantageSoOrthographicCamera>
+<bpKeyFrameAnimatorDialog>
+<bpCommandKeyframeDeleteAll actorname = "bpKeyFrameAnimatorDialog" actorid = "9"/>
+<PlayBackStateCamera>true</PlayBackStateCamera>
+<PlayBackStateTimePoints>true</PlayBackStateTimePoints>
+<PlayBackStateClippingPlanes>true</PlayBackStateClippingPlanes>
+<PlayBackStateOrthoSlicers>true</PlayBackStateOrthoSlicers>
+<PlayBackStateObliqueSlicers>true</PlayBackStateObliqueSlicers>
+<PlayBackStateShowHides>true</PlayBackStateShowHides>
+<PlayBackStateColors>true</PlayBackStateColors>
+<PlayBackStateDisplayAdjustment>true</PlayBackStateDisplayAdjustment>
+<KeyFrameAnimationPlayback>Repeat</KeyFrameAnimationPlayback>
+<KeyFrameAnimationNumberOfFrames>300</KeyFrameAnimationNumberOfFrames>
+<KeyFrameAnimationFrameRate>24.000</KeyFrameAnimationFrameRate>
+</bpKeyFrameAnimatorDialog>
+</bpSurfaceApplication>
+<bpSideBySideViewerPlot>
+<bpViewerPlot>
+</bpViewerPlot>
+<bpSoCamera>
+<mIsperspective>false</mIsperspective>
+<mPosition>(0.000, 0.000, 1.000)</mPosition>
+<mOrientation>(0.000, 0.000, 1.000, 0.000)</mOrientation>
+<mAspectRatio>1</mAspectRatio>
+<mFocalDistance>5</mFocalDistance>
+<mHeight>2</mHeight>
+<mHeightAngle>0</mHeightAngle>
+</bpSoCamera>
+</bpSideBySideViewerPlot>
+</bpImarisApplication>

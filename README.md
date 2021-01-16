@@ -6,6 +6,7 @@ Full version including the source codes will be released later.
 
 ## System requirements
 * Software dependencies: ImarisFileConverter (freely downloadable in https://imaris.oxinst.com/big-data), for converting a variety of image formats to .ims format, which is supported by Lychnis.
+* Hardware dependencies: NVIDIA graphics card
 * Operating systems (including version numbers): Windows 10 64-bit
 * Versions the software has been tested on: 1.2.5
 * Any required non-standard hardware: None
@@ -34,6 +35,7 @@ How to run the software on your data
 
 ## System requirements
 * Software dependencies: None
+* Hardware dependencies: NVIDIA graphics card
 * Operating systems (including version numbers): Windows 10 64-bit
 * Versions the software has been tested on: 1.1.0
 * Any required non-standard hardware: None

@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>assets/style.css</file>
+        <file>assets/Imaris/nodes-bpImarisApplication.xml</file>
+        <file>assets/Imaris/nodes-bpMeasurementPoints.xml</file>
+    </qresource>
+</RCC>

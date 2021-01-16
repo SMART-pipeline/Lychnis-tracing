@@ -1,0 +1,11 @@
+INCLUDEPATH += $$(OPENCV_DIR)\include
+Release: LIBS += -L$$(OPENCV_DIR)\x64\vc14\lib -lopencv_world340
+Debug: LIBS += -L$$(OPENCV_DIR)\x64\vc14\lib -lopencv_world340d
+
+INCLUDEPATH += $$(LIB_PATH)\HDF_Group\HDF5\1.12.0\include
+LIBS += -L$$(LIB_PATH)\HDF_Group\HDF5\1.12.0\lib
+LIBS += -llibhdf5 -llibhdf5_cpp -llibhdf5_hl -llibhdf5_hl_cpp -llibhdf5_tools -llibszip -llibzlib
+
+INCLUDEPATH += $$(VTK_DIR)\include\vtk-8.2
+LIBS += -L$$(VTK_DIR)\lib
+LIBS += -lvtkCommon-8.2 -lvtkFilters-8.2 -lvtkGUISupportQt-8.2 -lvtkGeovisCore-8.2 -lvtkIO-8.2 -lvtkIOImport-8.2 -lvtkImaging-8.2 -lvtkInteraction-8.2 -lvtkOpenGL-8.2 -lvtkRendering-8.2 -lvtkRenderingQt-8.2

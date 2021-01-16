@@ -1,0 +1,28 @@
+<bpMeasurementPoints>
+<bpSurfaceComponent>
+  <name>%1</name>
+  <id>%2</id>
+  <isHidden>false</isHidden>
+  <isNode>false</isNode>
+  <isExpanded>false</isExpanded>
+  <material>
+    <ambientColor>((0.200,0.200,0.200))</ambientColor>
+    <diffuseColor>((%3))</diffuseColor>
+    <specularColor>((0.000,0.000,0.000))</specularColor>
+    <emissiveColor>((0.000,0.000,0.000))</emissiveColor>
+    <shininess>(0.200)</shininess>
+    <transparency>(0.000)</transparency>
+  </material>
+</bpSurfaceComponent>
+  %4
+  <PointShape Shape="Sphere" Filled="false"/>
+  <PointDiameter>1.000</PointDiameter>
+  <PointLabels Name="false" Intensity="false" Angle="false"/>
+  <LineMode>Pairs</LineMode>
+  <VisibleForAllTimepoints>true</VisibleForAllTimepoints>
+  <LineWidth>1</LineWidth>
+  <LineLabels Distance="false" Velocity="false"/>
+  <LabelsColor>1.00000000 1.00000000 1.00000000</LabelsColor>
+  <LabelsFont Name="Arial" Size="12" Bold="false" Italic="false" Underline="false"/>
+  <AutodepthMode Intersect="All"/>
+</bpMeasurementPoints>
