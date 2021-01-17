@@ -22,9 +22,9 @@ Instructions to run on data:
 ## Instructions for use
 How to run the software on your data
 1. Click menu “File -> Open IMS file” to import IMS image instead of existing project
-2. Hold down “Ctrl+Z” and left-click to pick a point in volume which will be connected to currently selected point.
-3. Hold down “Ctrl+X” and left-click to select a previously inserted point.
-4. Hold down “Ctrl+X” and right-click to connect currently selected point to the next selected point.
+2. Hold down “Z” and left-click to pick a point in volume which will be connected to currently selected point.
+3. Hold down “X” and left-click to select a previously inserted point.
+4. Hold down “X” and right-click to connect currently selected point to the next selected point.
 5. Press “ESC” to cancel selection, “Delete” to delete selected point.
 6. Drag slider at the bottom to change resolution.
 7. Press Space to reload a data block centered at selected point.
@@ -51,8 +51,8 @@ Instructions to run on data:
 
 ## Instructions for use
 How to run the software on your data
-1. Hold down “Ctrl+Z” and left-click to pick a point in volume which will be connected to currently selected point.
-2. Hold down “Ctrl+X” and left-click to select a previously inserted point.
+1. Hold down “Z” and left-click to pick a point in volume which will be connected to currently selected point.
+2. Hold down “X” and left-click to select a previously inserted point.
 3. Press “ESC” to cancel selection, “Delete” to delete selected point.
 4. Drag slider at the top to adjust contrast.
 5.Click menu “Edit -> Build deformation from markers” to deform images based on the label points.
